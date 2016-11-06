@@ -10,5 +10,8 @@ public class HomeController {
 	public String home() {
 		return "index";
 	}
-	
+
+	public void hello() {
+		System.out.println("Hello World!");
+	}
 }
